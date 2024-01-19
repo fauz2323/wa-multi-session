@@ -143,7 +143,7 @@ export const startSessionWithPairingCode = async (
       auth: state,
       logger,
       markOnlineOnConnect: false,
-      browser: Browsers.ubuntu("Chrome"),
+      browser: Browsers.macOS("Desktop"),
     });
     sessions.set(sessionId, { ...sock });
     try {
